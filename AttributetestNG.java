@@ -1,9 +1,9 @@
-package week6.day1;
+package week6day1;
 
 import org.testng.annotations.Test;
 
 public class AttributetestNG {
-	@Test(priority=3,dependsOnMethods ="colledge")
+	@Test(priority=3,dependsOnMethods ="week6day1.Dependanceonmethod.office")
 	public void student() {
 		System.out.println("I am an engineering student");
 	}
