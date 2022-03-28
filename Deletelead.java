@@ -12,7 +12,7 @@ public class Deletelead extends Commontest {
 	
 	driver.findElement(By.linkText("Find Leads")).click();
 	driver.findElement(By.xpath("//span[text()='Phone']")).click();
-	driver.findElement(By.xpath("//input[@name='phoneNumber']")).sendKeys("99");
+	driver.findElement(By.xpath("//input[@name='phoneNumber']")).sendKeys("90");
 	driver.findElement(By.xpath("//button[text()='Find Leads']")).click();
 
 	String leadID = driver.findElement(By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a")).getText();
